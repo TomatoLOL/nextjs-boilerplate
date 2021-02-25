@@ -4,9 +4,55 @@ import Image from "next/image";
 export default function anythine(): JSX.Element {
 	return (
 		<>
-			<a href="https://instagram.com" target="_blank">
-				<Image src="/sexysnakepics/sexysnake.jpg" layout="fill" />
-			</a>
+		
+	
+		<div className="container">	
+			<div>	
+				<h2> Male snakes</h2>
+				<a href="https://instagram.com">
+					<Image src="/a/sexysnake.jpg" width="100px" height ="100px"/>
+				</a>
+				<a href="https://instagram.com">
+					<Image src="/a/sexysnake.jpg" width="100px" height ="100px"/>
+				</a>
+				<a href="https://instagram.com">
+					<Image src="/a/sexysnake.jpg" width="100px" height ="100px"/>
+				</a>
+					
+
+			</div>
+
+			<div>	
+				<h2>Female snakes</h2>
+				<a href="https://instagram.com">
+					<Image src="/a/sexysnake.jpg" width="100px" height ="100px"/>
+				</a>
+				<a href="https://instagram.com">
+					<Image src="/a/sexysnake.jpg" width="100px" height ="100px"/>
+				</a>
+				<a href="https://instagram.com">
+					<Image src="/a/sexysnake.jpg" width="100px" height ="100px"/>
+				</a>
+					
+
+			</div>
+			<div>	
+				<h2>transssnake</h2>
+				<a href="https://instagram.com">
+					<Image src="/a/sexysnake.jpg" width="100px" height ="100px"/>
+				</a>
+				<a href="https://instagram.com">
+					<Image src="/a/sexysnake.jpg" width="100px" height ="100px"/>
+				</a>
+				<a href="https://instagram.com">
+					<Image src="/a/sexysnake.jpg" width="100px" height ="100px"/>
+				</a>
+					
+
+			</div>
+
+
+		</div>
 		</>
 	
 	);

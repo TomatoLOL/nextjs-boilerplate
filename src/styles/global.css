@@ -17,3 +17,11 @@ a {
 ul {
 	list-style: none;
 }
+.container {	
+	display: flex;
+	justify-content: space-evenly;
+	max-width: 500px;
+	background-color: rgb(68, 67, 64);
+	margin: auto;
+	
+}
